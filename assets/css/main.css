@@ -1,0 +1,62 @@
+@import url("https://font.googleapis.com/css?family=PT+Serif:400,700");
+.a-menu {
+  display: inline-block;
+  text-aling: center !important;
+  padding: 20px;
+  width: 100%;
+  background: #f68f54; }
+
+.a-menu__item {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px;
+  color: white; }
+
+.a-menu__item__link {
+  color: #fff;
+  text-decoration: none; }
+  .a-menu__item__link:hover {
+    color: #ffc99d;
+    text-decoration: none;
+    padding: 20px; }
+
+.article {
+  width: 50%;
+  margin: 35px auto;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  padding: 20px;
+  box-sizing: border-box; }
+  .article__title {
+    color: black;
+    marigin: 0;
+    padding: 5px; }
+  .article__desc {
+    line-height: 22px; }
+
+.article--gren {
+  background: #fff; }
+  .article--gren .article__title {
+    padding: 5px;
+    font-size: 26px; }
+
+.article__img {
+  width: 100%; }
+
+.pie {
+  background: #f68f54; }
+  .pie .pie__item--center {
+    font-size: 16px;
+    color: #fff;
+    margin-left: 40%;
+    text-aling: center !important;
+    padding: 20px;
+    margin: 0; }
+
+body {
+  padding: 0px;
+  marign: 0px;
+  font-family: "PT Serif",serif; }
+
+/*# sourceMappingURL=main.css.map */

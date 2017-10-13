@@ -1,0 +1,65 @@
+//estilos menu
+// *{
+// 	outline:2px solid #000;
+// }
+.a-menu{
+	display:inline-block;
+	text-aling:center !important;
+	padding:20px;
+	width:100%;
+	background:$fondo;
+}
+.a-menu__item{
+	display:inline-block;
+	font-size:20px;
+	font-weight:700;
+	padding: 15px;
+	color:white;
+}
+.a-menu__item__link{
+	color:$white;
+	text-decoration:none;
+	 &:hover{
+	 	color:$hover;
+	 	text-decoration:none;
+	 	padding:20px;
+	 }
+}
+.article{
+	width:50%;
+	margin:35px auto;
+	border-radius:10px;
+	border:2px solid #ddd;
+	padding:20px;
+	box-sizing:border-box;
+	//element
+	 &__title{
+     color:black;
+     marigin:0;
+     padding:5px;
+	 }
+	 &__desc{
+	 	line-height:22px;
+	 }
+}
+.article--gren{
+	background:$white;
+	.article__title{
+		padding:5px;
+		font-size:26px;
+	}
+}
+.article__img{
+		width:100%;
+}
+.pie{
+	background:$fondo;
+	.pie__item--center{
+	font-size:16px;
+	color:$white;
+	margin-left:40%;
+	text-aling:center !important;
+	padding:20px;
+	margin:0;
+}
+}
